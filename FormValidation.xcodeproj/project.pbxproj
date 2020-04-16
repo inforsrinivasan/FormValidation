@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF223FF02447B83D00B23211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF223FEF2447B83D00B23211 /* AppDelegate.swift */; };
+		FF223FF22447B83D00B23211 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF223FF12447B83D00B23211 /* SceneDelegate.swift */; };
+		FF223FF92447B83F00B23211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF223FF82447B83F00B23211 /* Assets.xcassets */; };
+		FF223FFC2447B83F00B23211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF223FFA2447B83F00B23211 /* LaunchScreen.storyboard */; };
+		FF2240042447B8E100B23211 /* LoginFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2240032447B8E100B23211 /* LoginFormViewController.swift */; };
+		FF2240062447B8F600B23211 /* Coordinating.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2240052447B8F600B23211 /* Coordinating.swift */; };
+		FF2240092447B94000B23211 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2240082447B94000B23211 /* MainCoordinator.swift */; };
+		FF22400D2447BBB600B23211 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22400C2447BBB600B23211 /* UIView+Layout.swift */; };
+		FF2240102447BBF000B23211 /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22400F2447BBF000B23211 /* LoginFormView.swift */; };
+		FF22401224486C9A00B23211 /* UserNameValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22401124486C9A00B23211 /* UserNameValidationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF223FEC2447B83D00B23211 /* FormValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF223FEF2447B83D00B23211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF223FF12447B83D00B23211 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF223FF82447B83F00B23211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF223FFB2447B83F00B23211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF223FFD2447B83F00B23211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2240032447B8E100B23211 /* LoginFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormViewController.swift; sourceTree = "<group>"; };
+		FF2240052447B8F600B23211 /* Coordinating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinating.swift; sourceTree = "<group>"; };
+		FF2240082447B94000B23211 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		FF22400C2447BBB600B23211 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		FF22400F2447BBF000B23211 /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
+		FF22401124486C9A00B23211 /* UserNameValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameValidationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF223FE92447B83D00B23211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF223FE32447B83D00B23211 = {
+			isa = PBXGroup;
+			children = (
+				FF223FEE2447B83D00B23211 /* FormValidation */,
+				FF223FED2447B83D00B23211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF223FED2447B83D00B23211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF223FEC2447B83D00B23211 /* FormValidation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF223FEE2447B83D00B23211 /* FormValidation */ = {
+			isa = PBXGroup;
+			children = (
+				FF223FEF2447B83D00B23211 /* AppDelegate.swift */,
+				FF223FF12447B83D00B23211 /* SceneDelegate.swift */,
+				FF22401324486E3000B23211 /* Custom Views */,
+				FF22400E2447BBBC00B23211 /* Extensions */,
+				FF22400A2447BB0100B23211 /* Coordinator */,
+				FF2240072447B92800B23211 /* Protocols */,
+				FF22400B2447BB0E00B23211 /* View Controller */,
+				FF223FF82447B83F00B23211 /* Assets.xcassets */,
+				FF223FFA2447B83F00B23211 /* LaunchScreen.storyboard */,
+				FF223FFD2447B83F00B23211 /* Info.plist */,
+			);
+			path = FormValidation;
+			sourceTree = "<group>";
+		};
+		FF2240072447B92800B23211 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FF2240052447B8F600B23211 /* Coordinating.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FF22400A2447BB0100B23211 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				FF2240082447B94000B23211 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		FF22400B2447BB0E00B23211 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF2240032447B8E100B23211 /* LoginFormViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		FF22400E2447BBBC00B23211 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF22400C2447BBB600B23211 /* UIView+Layout.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FF22401324486E3000B23211 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF22400F2447BBF000B23211 /* LoginFormView.swift */,
+				FF22401124486C9A00B23211 /* UserNameValidationView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF223FEB2447B83D00B23211 /* FormValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2240002447B83F00B23211 /* Build configuration list for PBXNativeTarget "FormValidation" */;
+			buildPhases = (
+				FF223FE82447B83D00B23211 /* Sources */,
+				FF223FE92447B83D00B23211 /* Frameworks */,
+				FF223FEA2447B83D00B23211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormValidation;
+			productName = FormValidation;
+			productReference = FF223FEC2447B83D00B23211 /* FormValidation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF223FE42447B83D00B23211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Srinivasan Rajendran";
+				TargetAttributes = {
+					FF223FEB2447B83D00B23211 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FF223FE72447B83D00B23211 /* Build configuration list for PBXProject "FormValidation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF223FE32447B83D00B23211;
+			productRefGroup = FF223FED2447B83D00B23211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF223FEB2447B83D00B23211 /* FormValidation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF223FEA2447B83D00B23211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF223FFC2447B83F00B23211 /* LaunchScreen.storyboard in Resources */,
+				FF223FF92447B83F00B23211 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF223FE82447B83D00B23211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2240042447B8E100B23211 /* LoginFormViewController.swift in Sources */,
+				FF223FF02447B83D00B23211 /* AppDelegate.swift in Sources */,
+				FF22400D2447BBB600B23211 /* UIView+Layout.swift in Sources */,
+				FF2240102447BBF000B23211 /* LoginFormView.swift in Sources */,
+				FF2240062447B8F600B23211 /* Coordinating.swift in Sources */,
+				FF22401224486C9A00B23211 /* UserNameValidationView.swift in Sources */,
+				FF2240092447B94000B23211 /* MainCoordinator.swift in Sources */,
+				FF223FF22447B83D00B23211 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF223FFA2447B83F00B23211 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF223FFB2447B83F00B23211 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF223FFE2447B83F00B23211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF223FFF2447B83F00B23211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF2240012447B83F00B23211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59PKSR6X25;
+				INFOPLIST_FILE = FormValidation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srinivasan.FormValidation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF2240022447B83F00B23211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59PKSR6X25;
+				INFOPLIST_FILE = FormValidation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srinivasan.FormValidation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF223FE72447B83D00B23211 /* Build configuration list for PBXProject "FormValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF223FFE2447B83F00B23211 /* Debug */,
+				FF223FFF2447B83F00B23211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2240002447B83F00B23211 /* Build configuration list for PBXNativeTarget "FormValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2240012447B83F00B23211 /* Debug */,
+				FF2240022447B83F00B23211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF223FE42447B83D00B23211 /* Project object */;
+}
